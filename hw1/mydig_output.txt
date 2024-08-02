@@ -1,0 +1,77 @@
+#################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py www.cnn.com. A
+
+QUESTION SECTION:
+www.cnn.com. IN A 
+
+ANSWER SECTION:
+www.cnn.com. IN A 199.232.39.5
+
+Query time: 0.147 sec
+WHEN: Sep 20 11:49:58 2022
+MSG SIZE rcvd: 38
+
+##################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py www.cnn.com. NS
+
+QUESTION SECTION:
+www.cnn.com. IN NS 
+
+ANSWER SECTION:
+www.cnn.com. IN NS ns1.fastly.net. hostmaster.fastly.com. 2017052201 3600 600 604800 30
+
+Query time: 0.238 sec
+WHEN: Sep 20 11:50:34 2022
+MSG SIZE rcvd: 37
+
+##################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py www.cnn.com. MX
+
+QUESTION SECTION:
+www.cnn.com. IN MX 
+
+ANSWER SECTION:
+www.cnn.com. IN MX ns1.fastly.net. hostmaster.fastly.com. 2017052201 3600 600 604800 30
+
+Query time: 0.115 sec
+WHEN: Sep 20 11:51:17 2022
+MSG SIZE rcvd: 37
+
+##################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py google.co.jp A
+
+QUESTION SECTION:
+google.co.jp IN A 
+
+ANSWER SECTION:
+google.co.jp IN A 216.239.32.10
+
+Query time: 0.320 sec
+WHEN: Sep 20 10:42:51 2022
+MSG SIZE rcvd: 39
+
+##################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py google.co.jp NS
+
+QUESTION SECTION:
+google.co.jp IN NS 
+
+ANSWER SECTION:
+google.co.jp IN NS ns1.google.com. dns-admin.google.com. 475246527 900 900 1800 60
+
+Query time: 0.492 sec
+WHEN: Sep 20 11:52:01 2022
+MSG SIZE rcvd: 39
+
+##################################################################
+shihaowen@Shihaos-MacBook-Air hw1 % python mydigA.py google.co.jp MX
+
+QUESTION SECTION:
+google.co.jp IN MX 
+
+ANSWER SECTION:
+google.co.jp IN MX ns1.google.com. dns-admin.google.com. 475246527 900 900 1800 60
+
+Query time: 0.279 sec
+WHEN: Sep 20 11:52:24 2022
+MSG SIZE rcvd: 42
